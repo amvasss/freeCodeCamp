@@ -1,1 +1,1 @@
-Solutions to freeCodeCamp Scientific Computing with Python (Beta) projects
+Solutions to freeCodeCamp curriculum projects
