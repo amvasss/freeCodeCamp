@@ -24,3 +24,12 @@
   </fieldset>
 </form>
 
+#CSS
+label, input {
+  display: block;
+}
+
+.inline{
+  display: inline; 
+}
+
