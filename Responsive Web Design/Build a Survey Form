@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" href="styles.css">
+<h1 id="title">Survey Form</h1>
+<p id="description">This is a survey form</p>
+<form id="survey-form">
+  <fieldset>
+    <label for="name" id="name-label">Enter your name: <input id="name" type="text" required placeholder="Enter your name"/></label>
+    <label for="emai" id="email-label">Enter your email:<input id="email" type="email" required placeholder="Enter your email"/></label>
+    <label for="number" id="number-label">Enter a number: <input id="number" type="number" min="0" max="999" placeholder="Enter a number between 0 and 999"/></label>
+    <label for="dropdown"> Choose one:</label>
+    <select id="dropdown">
+      <option value="">(select one)</option>
+      <option value="1">I'm a unicorn</option>
+      <option value="2">I'm a panda</option>
+    </select>
+    <label>How did you hear about us?</label>
+    <label for="radio1"><input id="radio1" type="radio" name="radio-button" class="inline" value="1"/>Friend</label>
+    <label for="radio2"><input id="radio2" type="radio" name="radio-button" class="inline" value="2" />Internet</label>
+    <label>What's your favourite food between these two?</label>
+    <label for="check1"><input type="checkbox" id="check1" class="inline" value="1" />Pizza</label>
+    <label for="check2"><input type="checkbox" id="check2" class="inline" value="2" />Hamburger</label>
+    <textarea placeholder="Add your comments here"></textarea>
+    <input id="submit" type="submit" value="Submit"/>
+  </fieldset>
+</form>
+
